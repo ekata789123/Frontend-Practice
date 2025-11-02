@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Search Component With Debouncing
+This project demonstrates a React Search Component that fetches products from an API and applies debouncing to optimize API calls.
+It displays results dynamically with product name & image and shows “No results found” when there are no matches.
+
+✅ Key Features
+⏳ Debounced Search (reduces API calls)
+🌐 Fetches live data from dummyjson.com
+🔎 Real-time search results
+🖼 Product title with thumbnail display
+📦 Clean & modular React component
+🎨 Fully styled using CSS
+✅ Scrollable results list
+![Search Component Preview](component\src\assests\Screenshot\Screenshot 2025-11-02 112149.png)
