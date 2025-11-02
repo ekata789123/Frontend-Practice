@@ -83,4 +83,4 @@ It displays results dynamically with product name & image and shows “No result
 📦 Clean & modular React component
 🎨 Fully styled using CSS
 ✅ Scrollable results list
-![Search Component Preview](component\src\assests\Screenshot\Screenshot 2025-11-02 112149.png)
+![Search Component Preview](public/screenshot/search-preview.png)
