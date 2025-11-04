@@ -1,0 +1,50 @@
+.search-component {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(240, 226, 228);
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+.search-conatiner-image{
+    width:10%;
+}
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.search-item{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.search-list {
+  height: 450px;
+  overflow-y: scroll;
+}
+
+.search-list ul {
+  list-style-type: none;
+  padding: 4px;
+  margin: 0;
+}
+
+.no-result {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  padding: 20px;
+  
+  background-image: url('https://thumbs.dreamstime.com/b/no-found-symbol-unsuccessful-search-vecotr-upset-magnifying-glass-cute-not-zoom-icon-suitable-results-oops-page-failure-122786031.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;  /* Required for image to show */
+}
+hr{
+    width: 100%;
+}
