@@ -46,18 +46,30 @@
     padding:10px;
     
   }
-  .heading{
+  .heading {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap:4px;
-    margin:auto;
-   h2{
-        padding:0px;
-        margin:0px;
-    }
-    h3{
-        padding:0px;
-        margin:0px 0px 0px 20px;
-    }
-  }
+    justify-content: center;
+    gap: 4px;
+    margin: auto;
+    width: fit-content; 
+    text-align: left;
+    border:1px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    padding:15px;
+    border-radius: 10px;
+}
+
+.heading h2 {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600; 
+   
+}
+
+.heading h3 {
+    padding: 0;
+    margin: 0 0 0 20px; 
+    font-weight: 400;
+}

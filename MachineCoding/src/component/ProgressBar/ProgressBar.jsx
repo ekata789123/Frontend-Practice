@@ -26,7 +26,7 @@ export const ProgressBar = () => {
           className={`bar-fill ${progressInput ? "purple-class" : "white-class"}`}
           style={{ width: `${progressInput}%` }}
         >
-            {progressInput}%
+          {progressInput &&  <span> {progressInput}%</span>}
         </div>
       </div>
 
