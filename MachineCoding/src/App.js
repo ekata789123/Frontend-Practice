@@ -3,6 +3,7 @@ import { Search } from './component/SearchComponent/Search';
 import {StopCounter} from './component/StopCounter/StopCounter';
 import { ProgressBar } from './component/ProgressBar/ProgressBar';
 import { TodoList } from './component/TodoList/TodoList';
+import { StepperComponent } from './component/StepperComponent/StepperComponent';
 function App() {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ function App() {
         <Route path="/stopCounter" element={<StopCounter />} />
         <Route path="/progressBar" element={<ProgressBar />} />
         <Route path="/todolist" element={<TodoList />} />
+        <Route path="/stepper" element={<StepperComponent />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,92 @@
+
+.stepper-container{
+    width: 600px;
+    height: 500px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #c2495f, rgb(214, 153, 204));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 28px;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+.data-item{
+    display:flex;
+    gap:10px;
+}
+.heading-stepper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom:15px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    padding:15px;
+    border-radius: 10px;
+}
+.stepui-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    position: relative;
+    margin-top:20px;
+  }
+  
+  .stepper-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .stepper-circle {
+   width:70px;
+   height:70px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #f2f2f2;
+    transition: all 0.3s ease;
+  }
+  
+  .stepper-line {
+    width: 60px;
+    height: 4px;
+    background-color: #ccc;
+    margin: 0 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filled-line {
+    background-color: rgb(69, 10, 171);
+  }
+  
+.button-container-stepper{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    button{
+        width:80px;
+        padding:10px;
+        background-color: rgb(141, 115, 185);
+        color:rgb(44, 4, 6);
+        font-weight: 500;
+        cursor:pointer;
+        border-radius: 5px;;
+    }
+}
+.step-task-container{
+    margin:20px;;
+    text-align: center;
+    color:black;
+}
+.line-completed {
+    background-color: green;
+  }
+  .stepper-name{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+  }
