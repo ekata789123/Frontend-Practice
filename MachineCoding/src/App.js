@@ -4,6 +4,7 @@ import {StopCounter} from './component/StopCounter/StopCounter';
 import { ProgressBar } from './component/ProgressBar/ProgressBar';
 import { TodoList } from './component/TodoList/TodoList';
 import { StepperComponent } from './component/StepperComponent/StepperComponent';
+import { CartUIComponent } from './component/CartUIComponent/CartUIComponent';
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/progressBar" element={<ProgressBar />} />
         <Route path="/todolist" element={<TodoList />} />
         <Route path="/stepper" element={<StepperComponent />} />
+        <Route path="/cartUI" element={<CartUIComponent />} />
       </Routes>
     </BrowserRouter>
   );
