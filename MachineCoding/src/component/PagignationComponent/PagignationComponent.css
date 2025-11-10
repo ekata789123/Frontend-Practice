@@ -1,0 +1,46 @@
+.page-btn{
+    background-color: rgb(220, 220, 200);
+}
+.active{
+    background-color: purple;
+}
+.pagignation-component{
+    width:600px;
+    height:650px;
+    border:1px solid yellow;
+    box-shadow: 0 8px 25px rgba(172, 164, 164, 0.2);
+    background:linear-gradient(120deg,purple,red);
+    border-radius:10px;
+    justify-content: center;
+    padding:10px;
+    margin:10px auto;
+}
+.pagignation-data{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+    width:400px;
+    height:500px;
+    overflow-y: auto;
+    margin:auto;
+}
+.pagignation-row{
+    display: flex;
+    border: 1px solid #fff;
+    padding:5px;
+    justify-content: space-between;
+    color: white;
+}
+.pagination-buttons{
+    display: flex;
+    text-align:center;
+    margin:auto;
+    justify-content: center;
+    button{
+        border-radius:4px;
+        margin:2px;
+        cursor: pointer;
+    }
+}
